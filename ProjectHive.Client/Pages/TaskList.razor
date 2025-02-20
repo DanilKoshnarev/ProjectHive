@@ -1,0 +1,27 @@
+@page "/tasks"
+@inject HttpClient Http
+
+<h3>Task List</h3>
+
+@if (tasks == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var task in tasks)
+        {
+            <li>@task.Title - @task.Status</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<TaskDto> tasks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        tasks = await Http.GetFromJsonAsync<List<TaskDto>>("api/task");
+    }
+}
