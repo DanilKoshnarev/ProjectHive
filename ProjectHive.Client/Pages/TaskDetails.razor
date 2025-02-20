@@ -1,0 +1,29 @@
+@page "/tasks/{id}"
+@inject HttpClient Http
+
+<h3>Task Details</h3>
+
+@if (task == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div>
+        <h4>@task.Title</h4>
+        <p>@task.Description</p>
+        <p>Status: @task.Status</p>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private TaskDto task;
+
+    protected override async Task OnInitializedAsync()
+    {
+        task = await Http.GetFromJsonAsync<TaskDto>($"api/task/{Id}");
+    }
+}
