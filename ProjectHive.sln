@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHive.Client", "ProjectHive.Client\ProjectHive.Client.csproj", "{E3A954F6-3C5A-4E4D-B142-5D4EACD94323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHive.Server", "ProjectHive.Server\ProjectHive.Server.csproj", "{2AAE5B62-ED7D-4C3E-92BD-61D168B55B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHive.Shared", "ProjectHive.Shared\ProjectHive.Shared.csproj", "{23B8F623-7F8D-4F7D-9F9B-0E9A8A9DF6F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3A954F6-3C5A-4E4D-B142-5D4EACD94323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A954F6-3C5A-4E4D-B142-5D4EACD94323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A954F6-3C5A-4E4D-B142-5D4EACD94323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A954F6-3C5A-4E4D-B142-5D4EACD94323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAE5B62-ED7D-4C3E-92BD-61D168B55B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAE5B62-ED7D-4C3E-92BD-61D168B55B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAE5B62-ED7D-4C3E-92BD-61D168B55B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAE5B62-ED7D-4C3E-92BD-61D168B55B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B8F623-7F8D-4F7D-9F9B-0E9A8A9DF6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B8F623-7F8D-4F7D-9F9B-0E9A8A9DF6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B8F623-7F8D-4F7D-9F9B-0E9A8A9DF6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B8F623-7F8D-4F7D-9F9B-0E9A8A9DF6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
